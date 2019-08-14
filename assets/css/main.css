@@ -168,7 +168,7 @@ input, select, textarea {
 	}
 
 	p, ul, ol, dl, table, blockquote, form {
-		margin-bottom: 2em;
+		margin-bottom: .5em;
 	}
 
 /* Container */
@@ -1615,7 +1615,7 @@ input, select, textarea {
 		.image.featured {
 			display: block;
 			width: 100%;
-			margin: 0 0 2em 0;
+			margin: 0 0 1.25em 0;
 		}
 
 /* Button */
@@ -2012,7 +2012,10 @@ input, select, textarea {
 			.wrapper.style1 h1, .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6, .wrapper.style1 strong, .wrapper.style1 b, .wrapper.style1 a {
 				color: #fff;
 			}
-
+			.wrapper.style1 p,a  {
+				color: #fff;
+				font-size: 1.15em;
+			}
 		.wrapper.style2 {
 			background: #fff;
 		}
@@ -2023,11 +2026,12 @@ input, select, textarea {
 			}
 			.wrapper.style2 p,a  {
 				color: #484d55;
+				font-size: 1.15em;
 			}
 			.wrapper.style2 h1{
 				color: #484d55;
 				font-size: 1.5em;
-				margin-bottom: .5em;
+				margin-bottom: .65em;
 			}
 
 		.wrapper.style3 {
@@ -2040,6 +2044,7 @@ input, select, textarea {
 			}
 			.wrapper.style3 p,a  {
 				color: #191919;
+				font-size: 1.15em;
 			}
 
 
