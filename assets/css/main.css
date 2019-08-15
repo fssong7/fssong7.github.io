@@ -178,7 +178,22 @@ input, select, textarea {
 		max-width: 100%;
 		width: 68em;
 	}
+	.overlay {
+	  position: absolute;
+	  top: 0;
+	  bottom: 0;
+	  left: 0;
+	  right: 0;
+	  height: 100%;
+	  width: 100%;
+	  opacity: 0;
+	  transition: .5s ease;
+	  background-color: #008CBA;
+	}
 
+	.container:hover .overlay {
+	  opacity: 1;
+	}
 		@media screen and (max-width: 1680px) {
 
 			.container {
@@ -2012,9 +2027,14 @@ input, select, textarea {
 			.wrapper.style1 h1, .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6, .wrapper.style1 strong, .wrapper.style1 b, .wrapper.style1 a {
 				color: #fff;
 			}
-			.wrapper.style1 p,a  {
+			.wrapper.style1 p,a,ul,ol,li  {
 				color: #fff;
 				font-size: 1.15em;
+			}
+			.wrapper.style1 h1{
+				color: #fff;
+				font-size: 1.35em;
+				margin-bottom: .65em;
 			}
 		.wrapper.style2 {
 			background: #fff;
@@ -2024,13 +2044,13 @@ input, select, textarea {
 				background: #fff;
 				color: #484d55;
 			}
-			.wrapper.style2 p,a  {
+			.wrapper.style2 p,a,ul,ol,li  {
 				color: #484d55;
 				font-size: 1.15em;
 			}
 			.wrapper.style2 h1{
 				color: #484d55;
-				font-size: 1.5em;
+				font-size: 1.35em;
 				margin-bottom: .65em;
 			}
 
@@ -2042,10 +2062,16 @@ input, select, textarea {
 				background: #f3f3f3 url("images/overlay.png");
 				color: #191919;
 			}
-			.wrapper.style3 p,a  {
+			.wrapper.style3 p,a,ul,ol,li  {
 				color: #191919;
 				font-size: 1.15em;
 			}
+			.wrapper.style3 h1{
+				color: #191919;
+				font-size: 1.35em;
+				margin-bottom: .65em;
+			}
+
 
 
 
@@ -2993,8 +3019,5 @@ input, select, textarea {
 						#copyright ul li:first-child {
 							margin-top: 0;
 						}
-		 /* iframe */
-		 iframe{
 
-		 }
 	}
