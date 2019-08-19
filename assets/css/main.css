@@ -190,7 +190,11 @@ input, select, textarea {
 	  transition: .5s ease;
 	  background-color: #008CBA;
 	}
-
+	.goodboi{
+		margin: auto;
+		justify-content: flex-start;
+		margin-top: 121px;
+	}
 	.container:hover .overlay {
 	  opacity: 1;
 	}
@@ -1684,7 +1688,7 @@ input, select, textarea {
 		input[type="reset"].style1,
 		button.style1,
 		.button.style1 {
-			background: #e97770 url("images/overlay.png");
+			background: #282b34;
 			color: #fff;
 		}
 
@@ -1693,7 +1697,7 @@ input, select, textarea {
 			input[type="reset"].style1:hover,
 			button.style1:hover,
 			.button.style1:hover {
-				background-color: #f98780;
+				background-color: #333742;
 			}
 
 			input[type="button"].style1:active,
@@ -1701,7 +1705,7 @@ input, select, textarea {
 			input[type="reset"].style1:active,
 			button.style1:active,
 			.button.style1:active {
-				background-color: #d96760;
+				background-color: #333742;
 			}
 
 		input[type="button"].style2,
@@ -2027,7 +2031,7 @@ input, select, textarea {
 			.wrapper.style1 h1, .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6, .wrapper.style1 strong, .wrapper.style1 b, .wrapper.style1 a {
 				color: #fff;
 			}
-			.wrapper.style1 p,a,ul,ol,li  {
+			.wrapper.style1 p,a,ol  {
 				color: #fff;
 				font-size: 1.15em;
 			}
@@ -2044,7 +2048,7 @@ input, select, textarea {
 				background: #fff;
 				color: #484d55;
 			}
-			.wrapper.style2 p,a,ul,ol,li  {
+			.wrapper.style2 p,a,ol  {
 				color: #484d55;
 				font-size: 1.15em;
 			}
@@ -2055,14 +2059,14 @@ input, select, textarea {
 			}
 
 		.wrapper.style3 {
-			background: #f3f3f3 url("images/overlay.png");
+			background: #f3f3f3;
 		}
 
 			.wrapper.style3 .title {
-				background: #f3f3f3 url("images/overlay.png");
+				background: #f3f3f3;
 				color: #191919;
 			}
-			.wrapper.style3 p,a,ul,ol,li  {
+			.wrapper.style3 p,a,ol  {
 				color: #191919;
 				font-size: 1.15em;
 			}
@@ -2260,14 +2264,13 @@ input, select, textarea {
 
 		#intro p.style2 {
 			font-weight: 700;
-			color: #fff;
 			border-radius: 0.35em;
-			box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
-			font-size: 2.75em;
+
+			font-size: 2.25em;
 			letter-spacing: 0.075em;
 			line-height: 1.35em;
 			padding: 1em 0 1em 0;
-			margin-bottom: 1em;
+			margin-bottom: .25em;
 		}
 
 			#intro p.style2 a {
