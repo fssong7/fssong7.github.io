@@ -1664,6 +1664,7 @@ input, select, textarea {
 		min-width: 12em;
 		height: 4em;
 		line-height: 4em;
+
 	}
 
 		input[type="button"]:hover,
@@ -1713,9 +1714,13 @@ input, select, textarea {
 		input[type="reset"].style2,
 		button.style2,
 		.button.style2 {
-			background: none;
-			color: #606167;
+			background: #282b34;
+			color: #fff;
 			box-shadow: inset 0px 0px 2px 0px #a0a1a7;
+			border: .40px solid white;
+			width: 22%;
+			margin-left: 39%;
+			margin-right: 39%;
 		}
 
 			input[type="button"].style2:hover,
@@ -1724,6 +1729,7 @@ input, select, textarea {
 			button.style2:hover,
 			.button.style2:hover {
 				box-shadow: inset 0px 0px 2px 0px #606167;
+				background-color: #333742;
 			}
 
 			input[type="button"].style2:active,
@@ -2319,9 +2325,15 @@ input, select, textarea {
 		padding-bottom: 6em;
 	}
 
-		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b, #footer a {
+		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b{
 			color: #fff;
 		}
+		 #footer div a{
+			 color: #fff;
+			 display: flex;
+  	 	 justify-content: center;
+			 text-transform: uppercase;
+		 }
 
 		#footer hr {
 			border-top-color: #333;
@@ -2416,15 +2428,15 @@ input, select, textarea {
 		text-align: center;
 		padding-top: 6em;
 		margin-top: 6em;
-		border-top: solid 1px rgba(255, 255, 255, 0.05);
+		border-top: solid 1px rgba(0, 0, 0, 0.05);
 	}
 
 		#copyright ul {
 			display: inline-block;
 			border-radius: 0.35em;
-			box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.05);
-			color: #aaa;
-			color: rgba(255, 255, 255, 0.25);
+			box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
+			color: #fff;
+			color: rgba(0, 0, 0, 0.25);
 			padding: 0.75em 2em;
 			font-size: 0.9em;
 		}
@@ -2433,8 +2445,9 @@ input, select, textarea {
 				display: inline-block;
 				margin-left: 1em;
 				padding-left: 1em;
-				border-left: solid 1px #333;
-				border-left-color: rgba(255, 255, 255, 0.05);
+				border-left: solid 1px #fff;
+				border-left-color: rgba(0, 0, 0, 0.05);
+				color: #fff;
 			}
 
 				#copyright ul li:first-child {
