@@ -30,30 +30,153 @@
 				</section>
 
 
-        <section id="highlights" class="wrapper style2">
-					<div class="title">How it's made</div>
-
+				<section id="highlights" class="wrapper style3">
+					<div class="title">Introduction</div>
 					<div class="container">
 						<div class="row aln-center">
-							<div class="col-5">
+							<div class="col-4 col-12-medium">
+								<h1>What is this thing?</h1>
+								<p>During my freshman year, one of my design classes entailed of working in a group of 8 people to build a project that could be
+								potentially useful to us. After brainstorming various ideas, removing the ones that might be difficult to accomplish (such as asteroid
+								diverter), we settled on Lumos: a smart window.</p>
+							</div>
+							<div class="col-4 col-12-medium">
 								<section class="highlight">
-									<a class="image featured"><img src="images/pika.gif" alt="" /></a>
-									<p>Pardon me while I iterate!</p>
+									<a class="image featured"><img src="images/Lumos/Frame.jpg" alt="images/pika.gif" /></a>
+								</section>
+							</div>
+							<div class="col-8 col-12-medium">
+								<p>Lumos is a system that we designed to optimize a window and blind for regulating temperature and light. Using sensors, the system
+								will detect whether to open or close the blinds using a servo based on the amount of light outside, so people can wake up due to
+								"natural light". Additionally, the sensors would also detect the temperatue inside and outside, and potentially open the window based
+								off of these temperatures. To accurately convey and test this, we constructed a model out of foamcore and wired a system using an Arduino.
+								My part of the project consisted of designing the sliding mechanism of the window and compiling the engineering notebook.</p>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section id="highlights" class="wrapper style2">
+					<div class="title">Design Process</div>
+					<div class="container">
+						<div class="row aln-center">
+							<div class="col-8 col-12-medium">
+								<h1>Slide Design</h1>
+								<p>For the hardware component of the project, the most critical part was to design a mechanism that would allow for a window pane to
+								move back and forth based on the sensor data. Potential designs and sketchs are shown below.</p>
+							</div>
+						</div>
+					</div>
+					<div class="container">
+						<div class="row aln-center">
+							<div class="col-4 col-12-medium">
+								<section class="highlight">
+									<a class="image featured"><img src="images/Lumos/LinearSlideSketch.png" alt="images/pika.gif" /></a>
+									<p><i>Linear Slide</i></p>
+								</section>
+							</div>
+							<div class="col-4 col-12-medium">
+								<section class="highlight">
+									<a class="image featured"><img src="images/Lumos/RackandPinionSketch.jpg" alt="images/pika.gif" /></a>
+									<p><i>Rack and Pinion</i></p>
+								</section>
+							</div>
+						</div>
+					</div>
+					<div class="container">
+						<div class="row aln-center">
+							<div class="col-4 col-12-medium">
+								<section class="highlight">
+									<a class="image featured"><img src="images/Lumos/AccordianSketch.png" alt="images/pika.gif" /></a>
+									<p><i>Scissor Lift</i></p>
+								</section>
+							</div>
+							<div class="col-4 col-12-medium">
+								<section class="highlight">
+									<a class="image featured"><img src="images/Lumos/WindupSpringSketch.png" alt="images/pika.gif" /></a>
+									<p><i>Windup Spring</i></p>
+								</section>
+							</div>
+						</div>
+					</div>
+					<div class="container">
+						<div class="row aln-center">
+							<div class="col-8 col-12-medium">
+								<p>After comparing the various possible designs, we ended up going with the linear slide design, based
+								on the compactness of design, as well as cost and time efficiency. More detailed reasoning and additional
+								information on our design process can be found in our Engineering Notebook <a href="docs/Engineering Notebook.pdf">here.</a></p>
+							</div>
+						</div>
+					</div>
+					<div class="container">
+						<div class="row aln-center">
+							<div class="col-8 col-12-medium">
+								<h1>Linear Slide Design</h1>
+								<p>For linear slides to move, the are commonly powered using a string in one direction and let gravity do the work in the other direction.
+								However, because the linear slide will be sideways in our case, we needed a different solution.</p>
+								<p>To solve this, I designed a dual string linear slide system. This dual string loosens one string while tightening the other, which pulls
+								on the linear slide when rotating in either direction.</p>
+							</div>
+						</div>
+					</div>
+					<div class="container">
+						<div class="row aln-center">
+							<div class="col-4 col-12-medium">
+								<section class="highlight">
+									<a class="image featured"><img src="images/Lumos/Open.jpg" alt="images/pika.gif" /></a>
+									<p><i>Linear slide when window is open</i></p>
+								</section>
+							</div>
+							<div class="col-4 col-12-medium">
+								<section class="highlight">
+									<a class="image featured"><img src="images/Lumos/Closed.jpg" alt="images/pika.gif" /></a>
+									<p><i>Linear slide when window is closed</i></p>
+								</section>
+							</div>
+						</div>
+					</div>
+					<div class="container">
+						<div class="row aln-center">
+							<div class="col-4 col-12-medium">
+								<p>The window pane made out of foam core was then attached to the linear slide and powered using a motor.</p>
+							</div>
+							<div class="col-4 col-12-medium">
+								<section class="highlight">
+									<a class="image featured"><img src="images/Lumos/Construction.jpg" alt="images/pika.gif" /></a>
 								</section>
 							</div>
 						</div>
 					</div>
 				</section>
-        <!-- Footer -->
-        <section id="footer" class="wrapper">
 
-            <div id="copyright">
-              <ul>
-                <li>&copy; 20XX Forest Song</li>
-              </ul>
-        </section>
+				<section id="highlights" class="wrapper style3">
+					<div class="title">I wear a suit</div>
+					<div class="container">
+						<div class="row aln-center">
+							<div class="col-4 col-12-medium">
+								<section class="highlight">
+									<a class="image featured"><img src="images/Lumos/Windows.jpg" alt="images/pika.gif" /></a>
+								</section>
+							</div>
+							<div class="col-4 col-12-medium">
+								<h1>Friendship</h1>
+								<p>At the end of the project, we got to present our project to the entire class and engineering deans, that gave us feedback on our
+								project. Even though the design and manufacturing of the product was not the greatest, I am thankful that I got the chance to work
+								with people that I know will be lifelong friends :].</p>
+							</div>
+						</div>
+					</div>
+				</section>
 
-      </div>
+				<!-- Footer -->
+				<section id="footer" class="wrapper">
+					<div><a href="projects.html" class="button style2">return to project page</a></div>
+					<div id="copyright">
+						<ul>
+							<li>&copy; 20XX Forest Song</li>
+						</ul>
+					</div>
+				</section>
 
       <!-- Scripts -->
         <script src="assets/js/jquery.min.js"></script>

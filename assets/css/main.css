@@ -170,7 +170,6 @@ input, select, textarea {
 	p, ul, ol, dl, table, blockquote, form {
 		margin-bottom: .5em;
 	}
-
 /* Container */
 
 	.container {
@@ -2039,7 +2038,7 @@ input, select, textarea {
 			}
 			.wrapper.style1 p,a,ol  {
 				color: #fff;
-				font-size: 1.15em;
+				font-size: 1.05em;
 			}
 			.wrapper.style1 h1{
 				color: #fff;
@@ -2056,12 +2055,13 @@ input, select, textarea {
 			}
 			.wrapper.style2 p,a,ol  {
 				color: #484d55;
-				font-size: 1.15em;
+				font-size: 1.05em;
 			}
 			.wrapper.style2 h1{
 				color: #484d55;
-				font-size: 1.35em;
+				font-size: 1.55em;
 				margin-bottom: .65em;
+				font-weight: 500;
 			}
 
 		.wrapper.style3 {
@@ -2074,12 +2074,13 @@ input, select, textarea {
 			}
 			.wrapper.style3 p,a,ol  {
 				color: #191919;
-				font-size: 1.15em;
+				font-size: 1.05em;
 			}
 			.wrapper.style3 h1{
 				color: #191919;
-				font-size: 1.35em;
+				font-size: 1.55em;
 				margin-bottom: .65em;
+				font-weight: 500;
 			}
 
 
@@ -2325,8 +2326,13 @@ input, select, textarea {
 		padding-bottom: 6em;
 	}
 
-		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b{
+		#footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b{
 			color: #fff;
+		}
+		#footer h1{
+			color: #fff;
+			font-size: 1.55em;
+			font-weight: 500;
 		}
 		 #footer div a{
 			 color: #fff;
