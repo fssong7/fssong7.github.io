@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>Airfoil Analysis</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="homepage is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header" class="wrapper">
+					<!-- Logo -->
+						<div id="logo">
+							<h1>Airfoil Analysis</h1>
+							<p>Comparing Airfoils through programming</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li class="current"><a href="projects.html">My Stuff</a></li>
+								<li><a class="icon solid fa-envelope"> fssong7@gmail.com</a></li>
+								<li><a href="https://www.linkedin.com/in/forest-song-555945129/" class="fab fa-linkedin"> Linkedin</a></li>
+								<li><a href="https://www.youtube.com/channel/UChHPZKW3tf_6XGJJlCzeQUg" class="fab fa-youtube"> Youtube</a></li>
+							</ul>
+						</nav>
+				</section>
+
+        <section id="highlights" class="wrapper style3">
+					<div class="title">XFOIL</div>
+					<div class="container">
+						<div class="row aln-center">
+							<div class="col-8 col-12-medium">
+								<h1>2D Airfoil Analysis</h1>
+								<p>As part of my research with Dr. Bilgen at Rutgers University, during the semester, I was tasked with comparing different airfoil
+								geometries and finding what factors influenced them. This was done through two different programs: XFOIL, a 2D airfoil analysis
+								software, and AVL, a 3D airfoil analysis software.</p>
+							</div>
+						</div>
+					</div>
+					<div class="container">
+						<div class="row aln-center">
+							<div class="col-4 col-6-medium">
+								<a class="image featured"><img src="images/Airfoil/Airfoil.png" alt="images/pika.gif" /></a>
+								<section class="highlight">
+									<p><i>Basic airfoil analysis of E387 wing</i></p>
+								</section>
+							</div>
+							<div class="col-4 col-6-medium">
+								<a class="image featured"><img src="images/Airfoil/XFOIL.png" alt="images/pika.gif" /></a>
+								<section class="highlight">
+									<p><i>Testing convergence with varying alpha (angle of attack)</i></p>
+									<p><i>Additional Testing can be found <a href="docs/xfoilConvergenceTesting.pdf">here</a></i></p>
+								</section>
+							</div>
+						</div>
+					</div>
+					<div class="container">
+						<div class="row aln-center">
+							<div class="col-8 col-12-medium">
+								<p>XFOIL is a powerful airfoil analysis software developed at MIT. By inputting information or generating your own wing geometries,
+								varying factors such as Reynold's number, Mach number, Angle of Attack, Coefficients of Lift, Drag, etc., airfoils can be analyzed.</p>
+								<p>Additionally, I wrote a MATLAB script that accepts the data given from XFOIL and compiles it into an Excel document. Information on
+								a NACA 0006 airfoil with varying alpha can be found <a href="docs/naca6results.pdf">here.</a></p>
+							</div>
+						</div>
+					</div>
+
+				</section>
+
+				<section id="highlights" class="wrapper style2">
+					<div class="title">AVL</div>
+					<div class="container">
+						<div class="row aln-center">
+							<div class="col-8 col-12-medium">
+								<h1>3D Airfoil Analysis</h1>
+								<p>AVL is a 3D version of the program that can also analyze airfoils.</p>
+								<p>In order to further enhance the usefulness of this program, I wrote several MATLAB scripts that would repeatedly run these airfoils
+								through AVL and allow for more rapid analysis, then generate data as well as a 3D graph that compared the effects of varying angle of
+								attack and elevator angle on coefficient of lift, drag, and moment. Unlike XFOIL, AVL can only run an analysis of a certain angle at once,
+								so this MATLAB script made it a lot quicker to analyze data.</p>
+								<a class="image featured"><img src="images/Airfoil/AirfoilDiagram.jpg" alt="images/pika.gif" /></a>
+							</div>
+						</div>
+					</div>
+					<div class="container">
+						<div class="row aln-center">
+							<div class="col-8 col-12-medium">
+								<p>The MATLAB scripts for running the analysis can be found here: <a href="images/Airfoil/preProcessing.m">Pre-Processing, </a>
+								<a href="images/Airfoil/Processing.m">Processing, </a><a href="images/Airfoil/postProcessing.m">Post Processing, </a>
+								<a href="images/Airfoil/FullProgram.m">Full Program.</a></p>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+
+        <!-- Footer -->
+        <section id="footer" class="wrapper">
+					<div><a href="projects.html" class="button style2">return to project page</a></div>
+          <div id="copyright">
+            <ul>
+              <li>&copy; 20XX Forest Song</li>
+            </ul>
+					</div>
+        </section>
+
+
+
+      <!-- Scripts -->
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/jquery.dropotron.min.js"></script>
+      <script src="assets/js/browser.min.js"></script>
+      <script src="assets/js/breakpoints.min.js"></script>
+      <script src="assets/js/util.js"></script>
+      <script src="assets/js/main.js"></script>
+
+    </body>
+  </html>
